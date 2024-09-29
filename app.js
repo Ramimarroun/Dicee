@@ -1,6 +1,8 @@
 var imge_1 = document.getElementById("img1");
 var imge_2 = document.getElementById("img2");
 var winner = document.querySelectorAll("h1")[0];
+var player_1 = document.getElementsByTagName("h1")[1].textContent;
+var comupter = document.getElementsByTagName("h1")[2].textContent;
 
 
 
@@ -20,10 +22,10 @@ function play(){
     imge_2.setAttribute("src", "./images/"+dicee_2);
 
     if(number_1 > number_2){
-    winner.textContent="Player One is the winner!"
+    winner.textContent= player_1+" is the winner!"
     }
     else if(number_1<number_2){
-        winner.textContent="Player Two is the winner!"  
+        winner.textContent= comupter +" is the winner!"  
     }
     else{
          winner.textContent="Draw!"
