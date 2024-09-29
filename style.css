@@ -1,0 +1,35 @@
+body{
+    background-color: #393E46;
+}
+.cotanier{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 25px;
+    
+    margin: auto;
+    width: 70%;
+}
+.palyers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h1{
+    margin-right: 100px;
+    color: #4ECCA3;
+}
+button{
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(10, 4, 4);
+    background-color:rgb(65, 243, 65);
+}
+img{
+    width: 150px;
+    margin-right: 100px;
+}
